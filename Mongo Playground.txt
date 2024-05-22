@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1 feladat
 
 db.collection.find({},
@@ -20,4 +21,28 @@ db.collection.find({},
   "_id": 0
 })
 
+=======
+1 feladat
+
+db.collection.find({},
+{
+  "firstName": 1,
+  "lastname": 1,
+  "user_id": 1,
+  "_id": 0
+})
+
+2. feladat
+
+
+ db.collection.find({
+  firstName: "Grace"
+},
+{
+  "email": 1,
+  "password": 1,
+  "_id": 0
+})
+
+>>>>>>> eb2f132231ed3f2b5c1a5b224cce6bc3f20837a5
 3.feladat
