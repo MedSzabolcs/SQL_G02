@@ -1,0 +1,23 @@
+1 feladat
+
+db.collection.find({},
+{
+  "firstName": 1,
+  "lastname": 1,
+  "user_id": 1,
+  "_id": 0
+})
+
+2. feladat
+
+
+ db.collection.find({
+  firstName: "Grace"
+},
+{
+  "email": 1,
+  "password": 1,
+  "_id": 0
+})
+
+3.feladat
